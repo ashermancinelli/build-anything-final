@@ -1,0 +1,33 @@
+
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    background: #B2EBF2;
+}
+
+.all-content {
+    margin: 25px 40px 25px 40px;
+    padding: 20px;
+    background: #9575CD;
+    border-radius: 8px;
+}
+
+hr {
+    border: 0px;
+    display: block;
+    border-top: 2px solid;
+    border-color: #E57373;
+}
+
+.button-wrapper {
+    position: relative;
+    left: 50%;
+    border-radius: 5px;
+}
+
+#simulate-button {
+    border-radius: 3px;
+}
+

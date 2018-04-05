@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>Game Predictor</title>
+</head>
+<body>
+    <div class="all-content">
+
+        <h3 id="main-header">
+            Main Header
+        </h3>
+        <div id="description">
+            <p>Here is a small description of the site and how it works... </p>
+            <hr>
+            <p>and another small description</p>
+            <hr>
+        </div>
+        <div id="main-content">
+
+            <div id="teams">
+
+                <div class="team" id="team1">
+                    <div class="team-title">Team 1 Name</div>
+                    <select name="team-selector" id="team1-select"></select>
+                    <span>Year: </span> <textarea cols="30" rows="1">ex. 2016</textarea>
+                </div>
+
+                <div class="button-wrapper">
+                    <button id="simulate-button">Simulate Game</button>
+                </div>
+
+                <div class="team" id="team2">
+                    <div class="team-title">Team 2 Name</div>
+                    <select name="team-selector" id="team2-select"></select>
+                    <span>Year: </span> <textarea cols="30" rows="1">ex. 2001</textarea>
+                </div>
+
+            </div>
+
+            <div class="result">
+                <h6>And the winner is...</h6>
+                <p> <span style='outline:3px dashed red;'>Team Name</span></p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
